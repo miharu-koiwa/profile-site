@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介ページ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--ヘッダー部分-->
+  <header>
+    <div class="container">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--プロフィールセクション-->
+
+  <section id="profile" class="profile">
+    <div class="container">
+      <h1>My Profile</h1>
+      <div class="profile-content">
+      <div class="profile-image">
+        <img src="images/profile.jpg" alt="プロフィール画像" />
+      </div>
+      <div class="profile-text">
+        <h2>Miharu Koiwa</h2>
+        <p class="profile-title">会社員</p>
+        <p class="profile-description">
+            はじめまして、プロフィールをご覧いただきありがとうございます！<br>
+            石川県出身、愛知県在住です。フロントエンドもバックエンドもこなせるWebエンジニアを目指して勉強中。<br>
+            よろしくお願いいたします。
+        </p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!--スキルセクション-->
+  <section id="skills" class="skills">
+    <div class="container">
+     <div class="title-wrap"><h2 class="section-title">Skills</h2></div>
+     <div class="skills-container">
+      <div class="skill-item">
+        <div class="skill-name">HTML/CSS<span>50%</span></div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 50%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">JavaScript<span>30%</span></div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 30%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">React<span>0%</span></div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">UI/UXデザイン<span>20%</span></div>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 20%"></div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <!--趣味・特技セクション-->
+  <section id="hobbies" class="hobbies">
+    <div class="container">
+      <div class="title-wrap">
+        <h2 class="section-title">Hobbies</h2>
+      </div>
+      <div class="hobbies-container">
+
+        <div class="hobby-item">
+          <h3>スイーツ</h3>
+          <div class="hobby-img">
+            <img src="images/cake.jpg" alt="ケーキの画像"/>
+          </div>
+          <p>気になるお店は、お休みの日に食べに行ったりします。</p>
+        </div>
+    
+        <div class="hobby-item">
+          <h3>ゲーム</h3>
+          <div class="hobby-img">
+            <img src="images/game.jpg" alt="ゲーム画像"/>
+          </div>
+          <p>特にポケモンをしています。</p>
+        </div>
+
+        <div class="hobby-item">
+          <h3>音楽鑑賞</h3>
+          <div class="hobby-img">
+            <img src="images/music.jpg" alt=""/>
+          </div>
+          <p>移動の時は欠かせません。<br>洋楽が特に好きです。</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--経歴セクション-->
+  <section id="history" class="history">
+    <div class="container">
+      <div class="time-wrap"><h2 class="section-title">History</h2></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2024年 - 現在</div>
+          <div class="timeline-content">
+            <h3>クッキー株式会社</h3>
+            <p>
+              バックエンド開発者として、社内の業務システムの開発に従事
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2022年 - 2024年</div>
+          <div class="timeline-content">
+            <h3>株式会社デジタル</h3>
+            <p>
+              フロントエンド開発者として、企業向けシステムの開発に従事
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2020年 - 2022年</div>
+          <div class="timeline-content">
+            <h3>キャッシュ株式会社</h3>
+            <p>
+              UX/UIデザイナーとして、自社商品のマテリアルデザインを担当
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--お問い合わせフォーム部分-->
+  <section class="contact">
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">送信する</button>
+        </form>
+      </div>
+    </section>
+  </section>
+
+  <!--フッター部分-->
+  <footer>
+    <div class="container">
+      <p class="copyright">&copy; 2025 Miharu Koiwa All Rights Reserved.</p>
+    </div>
+  </footer>
+
+ </body>
+</html>
